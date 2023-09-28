@@ -15,7 +15,7 @@ public class HelloTest {
           .when().get("/hello")
           .then()
              .statusCode(200)
-             .body(is("Hello RESTEasy"));
+             .body(is("Hello Summit Connect 2023"));
     }
 
 }
