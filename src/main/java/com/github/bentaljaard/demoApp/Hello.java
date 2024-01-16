@@ -11,6 +11,6 @@ public class Hello {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "Hello Summit Connect";
+        return "Hello Tennet";
     }
 }
